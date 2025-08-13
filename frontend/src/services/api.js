@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const apiClient = axios.create({
     // Change this line for the production build
-    baseURL: 'https://notenest-api-vk54.onrender.com/api',
+    baseURL: 'https://keepnotes-4md3.onrender.com/',
     headers: {
         'Content-Type': 'application/json',
     },
