@@ -165,8 +165,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## Contact
-
-Krish - [msgkrish192@gmail.com](mailto:msgkrish192@gmail.com)
-
-Project Link: [https://github.com/gitKrishh/NoteNest](https://github.com/gitKrishh/NoteNest)
