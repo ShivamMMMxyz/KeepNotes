@@ -1,14 +1,12 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    // Change this line for the production build
-    baseURL: 'https://notenest-api-vk54.onrender.com/api',
+    baseURL: import.meta.env.VITE_API_BASE_URL,
     headers: {
         'Content-Type': 'application/json',
     },
 });
 
-// IMPORTANT: Add a request interceptor to include the token in all requests
 apiClient.interceptors.request.use(
     (config) => {
         const userInfo = JSON.parse(localStorage.getItem('userInfo'));
