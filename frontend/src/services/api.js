@@ -1,7 +1,12 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
+<<<<<<< HEAD
     baseURL: import.meta.env.VITE_API_BASE_URL,
+=======
+    // Change this line for the production build
+    baseURL: 'https://keepnotes-4md3.onrender.com/',
+>>>>>>> 60ad95057e0b1e1f6e0e7ad08011e3bff50e19e0
     headers: {
         'Content-Type': 'application/json',
     },
